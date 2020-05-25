@@ -22,4 +22,10 @@
     <ProjectReference Include="..\Calculator\Calculator.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Addition\AddTwoNumbers.feature">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
