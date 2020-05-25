@@ -8,3 +8,4 @@ Feature: AddTwoNumbers
         And I choose 15 as second number
         When I press add
         Then the result should be 27 on the screen
+
