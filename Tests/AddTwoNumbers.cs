@@ -6,14 +6,14 @@ public sealed class AddTwoNumbers : Feature
 {
     private readonly Calculator _calculator = new Calculator();
 
-    [Given(@"I chose (\d+) as first number")]
-    public void I_chose_first_number(int firstNumber)
+    [Given(@"I choose (\d+) as first number")]
+    public void I_choose_first_number(int firstNumber)
     {
         _calculator.SetFirstNumber(firstNumber);
     }
 
-    [And(@"I chose (\d+) as second number")]
-    public void I_chose_second_number(int secondNumber)
+    [And(@"I choose (\d+) as second number")]
+    public void I_choose_second_number(int secondNumber)
     {
         _calculator.SetSecondNumber(secondNumber);
     }
