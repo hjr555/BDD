@@ -6,7 +6,7 @@
 
 For Visual Studio 2019, you should install the [SpecFlow for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=TechTalkSpecFlowTeam.SpecFlowForVisualStudio) extension.  
 
-For VS Code, you should install the [Cucumber (Gherkin) Full Support](https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocomplet) extension. This will require some configuration (out of scope).
+For VS Code, you should install the [Cucumber (Gherkin) Full Support](https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocomplete) extension. This will require some configuration (out of scope).
 
 ## Prepare your working folder
 
@@ -49,7 +49,7 @@ For VS Code, you should install the [Cucumber (Gherkin) Full Support](https://ma
     `Tests\Addition`  
 
 10. Create a new feature file, for our test:   
-    `Tests\Features\AddTwoNumbers.feature`  
+    `Tests\Addition\AddTwoNumbers.feature`  
 
 11. Paste in the gherkin syntax below.:  
 	```gherkin
@@ -59,8 +59,8 @@ For VS Code, you should install the [Cucumber (Gherkin) Full Support](https://ma
 	        I want to add two numbers using Calculator
 	    
         Scenario: Add two numbers
-	        Given I chose 12 as first number
-	        And I chose 15 as second number
+	        Given I choose 12 as first number
+	        And I choose 15 as second number
 	        When I press add
 	        Then the result should be 27 on the screen
     ```
